@@ -10,6 +10,12 @@ This to-do list application helps you stay organized and manage your tasks effec
 - Prevent duplicate tasks for better organization.
 - User-friendly error handling and error prevention.
 
+![Screenshot](./screenshot.png)
+
+## Demo
+
+Check out the live demo of the application [here](https://adorable-tarsier-e7205f.netlify.app).
+
 ## License
 
 This repository is open source and available under the [MIT License](LICENSE). You are free to customize and modify the code according to your needs. Feel free to contribute, create pull requests, or use the code as a starting point for your own to-do list projects.
@@ -18,9 +24,9 @@ This repository is open source and available under the [MIT License](LICENSE). Y
 
 To get started with the to-do list application, follow these steps:
 
-1. Clone the repository: git clone https://github.com/yuzakki/To-Do-List-App.git
+1. Clone the repository: `git clone https://github.com/yuzakki/To-Do-List-App.git`
 
-2. Open the index.html file in a web browser.
+2. Open the `index.html` file in a web browser.
 
 3. Start adding, completing, and removing tasks to manage your to-do list.
 
