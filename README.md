@@ -10,7 +10,7 @@ This to-do list application helps you stay organized and manage your tasks effec
 - Prevent duplicate tasks for better organization.
 - User-friendly error handling and error prevention.
 
-![Screenshot](./design/screenshot.jpeg)
+![Screenshot](./design/updated.jpeg)
 
 ## Demo
 
