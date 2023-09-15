@@ -4,10 +4,6 @@
 
 ## Clone the repository
 
-To run the app locally, follow these steps:
-
-Clone the repository:
-
 ```bash
 git clone https://github.com/yuzakki/To-Do-List-App.git`
 ```
