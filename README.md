@@ -22,4 +22,5 @@ Install dependencies:
 
 ## Usage
 
-Start the development server: `npm run dev`
+Start the development server:
+`npm run dev`
