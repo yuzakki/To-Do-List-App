@@ -28,19 +28,21 @@ function AddNewTask({ addTask, tasks }) {
   };
 
   return (
-    <form className="addTask" onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit}>
       {showError && (
         <span className="error-message">You must write something!</span>
       )}
       {duplicateTask && <span className="error-message">Duplicate tasks!</span>}
-      <input
-        type="text"
-        id="input-box"
-        value={newTask.name}
-        onChange={(e) => setNewTask({ ...newTask, name: e.target.value })}
-        placeholder="Add your text"
-      />
-      <button>Add</button>
+      <div className="flex">
+        <input
+          type="text"
+          id="input-box"
+          value={newTask.name}
+          onChange={(e) => setNewTask({ ...newTask, name: e.target.value })}
+          placeholder="Add your text"
+        />
+        <button className="xs:px-[50px] p-7 py-4">Add</button>
+      </div>
     </form>
   );
 }

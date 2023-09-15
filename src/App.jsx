@@ -31,11 +31,15 @@ function App() {
 
   return (
     <>
-      {" "}
-      <div className="container">
-        <div className="todo-app">
-          <h2>
-            To-Do List <img src="/images/icon.png" alt="icon" />
+      <div className="parent w-full min-h-screen p-2.5 ">
+        <div className="todo-app px-4 xs:px-8 pt-[40px] pb-[70px]">
+          <h2 className="text-darkBlue text-2xl	font-bold flex items-center mb-5">
+            To-Do List
+            <img
+              src="/images/icon.png"
+              className="w-[30px] ml-2.5"
+              alt="icon"
+            />
           </h2>
 
           <AddNewTask addTask={addTask} tasks={tasks} />
@@ -53,6 +57,7 @@ function App() {
             </ul>
           ) : (
             <h2
+              className="text-darkBlue text-center text-2xl font-bold flex items-center mb-5"
               style={{
                 height: "100px",
                 justifyContent: "center",
