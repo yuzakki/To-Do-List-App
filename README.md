@@ -10,14 +10,12 @@ git clone https://github.com/yuzakki/To-Do-List-App.git`
 
 Navigate to the project directory:
 
-```bash
 `cd To-Do-List-App`
-```
 
 Install dependencies:
 
 ```bash
-`npm install`
+npm install
 ```
 
 ## Usage
